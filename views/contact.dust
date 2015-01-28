@@ -1,0 +1,59 @@
+{>"head/head-web"/}
+  <body>
+  {>"header"/}
+  	<div class="c12 bg-contact">
+  	<div class="c12 title-offers">
+			<h3>Contacto</h3>
+		</div>
+		<iframe class="hidden-xxs hidden-xs hidden-s hidden-m" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d378.6682277193533!2d-3.7116555052383164!3d40.600193091999216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1409329527036" width="100%" height="128%" frameborder="0" style="border:0"></iframe>
+  		<div class="vp">
+  			<div class="c12 ">
+  				<div class="c5 c12-xxs c12-xs c12-s c12-m form-contact">
+  				<h4>Datos</h4>
+  				<form>
+	  				<p class="c12"><strong>Direccion:</strong>C/ Comercio,	7	(Tres Cantos, Madrid)</p><br>
+	  				<p class="c12"><strong>Tlfn:</strong> x x x x</p><br>
+	  				<p class="c12"><strong>Email:</strong>hola@paraiso.es</p><br>
+	  				<p class="c12"><strong>Web:</strong><a href="#">www.paraiso.es</a></p>
+	  				</form>
+	  			</div>
+	  			<div class="o1 c5 c12-xxs c12-xs c12-s c12-m form-contact1">
+  				<h4>Escribanos</h4>
+	  				<form action="http://restaurantelahipica.com/index.php/contact" method="post">
+	  				<p	class="p-form">
+  					Contacte con nostros en este formulario:
+  				</p>
+							<div>
+							<label>Nombre</label>
+								<input class=" inputbox " type="text" id="rp_name" name="rp_name" value="">
+							</div>
+							<div>
+								<label>Email</label>
+								<input class=" inputbox " type="text" id="rp_email" value="">
+							</div>
+							<div>
+							<label>Teléfono</label>
+								<input class=" inputbox " type="text" name="rp_subject" id="rp_subject" value="">
+							</div>
+							<div>
+							<label for="department" class="department">Motivo </label>
+							<select name="department" id="department">
+								<option value="1">Sugerencia</option>
+								<option value="2">Cumpleaños</option>
+								<option value="3">Información</option>
+							</select>
+							</div>
+								<div>
+									<label for="department" class="department">Mensaje </label>
+									<textarea class="textarea	c12"name="rp_message" id="rp_message" style="margin: 0px 0px 20px; height: 10em;"></textarea>
+								</div>
+							<div>
+							<input class="c12 btn btn-green " id="submit-form" type="submit" name="submit" value="Enviar"></div>
+						</form>
+	  			</div>
+  		</div>
+  		</div>
+  		</div>
+  {>"footer"/}
+  </body>
+</html>

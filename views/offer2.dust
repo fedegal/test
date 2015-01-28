@@ -1,0 +1,35 @@
+<div class="c12 placement-offers">
+<div class="offer">
+		 			<div class="c12 padding-offers2">
+		 			<a class="hidden-xxs" href="#">
+		 				<div class="c3 c2-xxs c4-xs c4-s c4-m">
+			 				<span class="c12 copes"></span>
+			 			</div>
+			 			<div class="c2 c2-xxs c3-xs c3-s c3-m">
+			 				<span class="c12 multiply"></span>
+			 			</div>
+			 			<div class="c3 c2-xxs c5-xs c5-s c4-m">
+			 				<span class="c12 ten"></span>
+			 			</div>
+			 			</a>
+			 			<div class="dates-offers c3 c12-xxs c12-xs c12-s c12-m">
+			 			<h3 class="c12">¿Unas copas?</h3>
+			 			<div class="p-info c12 c6-xxs c6-xs c6-s c6-m">
+			 			<p class="c12">
+			 				- 3 copas x 10 €<br>
+			 				- De 22:00 pm a 02:00 am<br>
+			 				- Viernes, Sábado y Domingo.
+			 			</p>
+			 			</div>
+			 			<div class="shared-offers c12 c6-xxs c6-xs c6-s c6-m">
+			 			<a href="https://twitter.com/share" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none">Tweet</a>
+			 			
+			 			<div class="fb-like fb" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+		 				</div>
+		 				<div class=" g-offers">
+		 				
+		 				</div>
+		 				</div>
+		 			</div>
+		 		</div>
+		 	</div>

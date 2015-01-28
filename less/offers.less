@@ -1,0 +1,556 @@
+
+.offer { margin: 1em 0;}
+.palms {
+	background: url("/images/bg_palms.png") no-repeat;
+	height: 392px;
+	margin: -22em 0 0 -22em;
+	z-index: -1;
+}
+.padding-offers2 {
+	//padding: 0 0 0 1em;
+	margin: -1em 0 0em 0;
+	p {
+		color: rgba(197, 197, 197, 1);
+		text-align: center;
+		font-size: .8em;
+		font-family: 'opensans';
+	}
+	span {max-height: 160px;}
+}
+.padding-offers {
+	//padding: 0 0em 0 1em;
+	margin: -1em 0 0em 0;
+	p {
+		color: rgba(197, 197, 197, 1);
+		text-align: center;
+		font-size: .8em;
+		font-family: 'opensans';
+	}
+	span {max-height: 160px;}
+}
+.content-offers {
+	background: url('/images/bkg-page.jpg') repeat;
+	z-index: 0;
+	margin-top: -24;
+	a {
+		img{
+			height: 249px;
+			width: 100%;
+			margin: .5em 0 0 0;
+			&:hover {border-color: rgb(255, 185, 57);}
+		}
+	}
+	h3 {
+		/*color:rgba(119, 119, 119, 0.74);
+		font-size: 2em;
+		font-family: 'c1';
+		text-shadow: 1px 1px white;
+		//padding: 0 0 .2em 0;
+		margin: .5em 0 .2em 0;
+		text-align: left;*/
+		text-shadow: 1px 1px rgba(252, 246, 243, 0.94);
+			font-size: 2em;
+			font-family: 'c1';
+			color: rgba(113, 43, 15, 0.74);
+			text-align: center;
+			text-shadow: 1px 1px white;
+			font-weight: bold;
+			padding: .3em 0;
+			margin: 1em 0 0 0;
+			border:6px double rgba(255, 131, 0, 0.33);
+			background: rgba(234, 199, 134, 0.38);
+			&:first-child{
+				margin: 0 0 0 0;
+			}
+	}
+	.placement-offers {
+		margin: 1em 0 1em .4em;
+		background-color: rgba(255, 255, 255, 0.28);
+		border-radius: 10px;
+		box-shadow: 0px 2px 1px rgba(184, 184, 184, 0.3);
+		/*-webkit-transition: all 1s linear;
+					-moz-transition: all .3s linear;
+					-ms-transition: all .3s linear;
+					-o-transition: all .3s linear;
+					transition: all .3s linear;
+		&:hover{
+			//background-color:rgba(224, 224, 224, 0.49);; 
+			background-color:rgba(255, 255, 255, 0.10); 
+			box-shadow: 0 0 0 rgba(184, 184, 184, 0);
+		}*/
+		span.beer {
+			&:before {
+				font-family: '26';
+				content: 'N';
+				font-size: 10em;
+				color: rgba(255, 180, 0, 0.68);
+				margin-left: 23px;
+			}
+		}
+		span.more {
+			float: left;
+			&:before {
+				font-family: 'c43';
+				content: '+';
+				font-size: 5em;
+				color: rgb(155, 60, 60);
+			}
+		}
+		span.ticket{
+			&:before{
+				font-family: 'ticket-offers';
+				content: 'a';
+				font-size: 11em;
+				color: rgba(255, 180, 0, 0.4);
+			}
+		}
+		span.equal {
+			float: left;
+			margin: 0 0 0 2em;
+			&:after{
+				font-size: 5em;
+				font-family: 'c43';
+				content: '=';
+				color: rgb(155, 60, 60);
+			}
+		}
+		span.entry{
+			&:before {
+				font-family: 'entry-offers';
+				content: 'a';
+				font-size: 12em;
+				color: rgba(255, 180, 0, 0.4);
+				margin: 0 0 0 .2em;
+			}
+		}
+		span.copes {
+				&:before {
+					font-family: '26';
+					content: 'jjj';
+					font-size: 10em;
+					color: rgba(255, 180, 0, 0.68);
+					margin-left: 23px;
+				}
+			}
+			span.multiply {
+				margin:4em 0 0 1.8em;
+				&:before{
+					font-size: 5em;
+					font-family: 'c43';
+					content: '*';
+					color: rgb(155, 60, 60);
+				}
+			}
+			span.ten {
+				margin:3.2em 0 0 0;
+				&:before {
+					font-family: 'angr';
+					content: '10 €';
+					color: rgba(255, 180, 0, 0.4);
+					font-size: 6em;
+				}
+			}
+		span.more, span.equal {
+			margin-top: 3em;
+		}
+		.dates-offers {
+			background: #E0E0E0;
+			float: right;
+			height: 12em;
+			box-shadow: -3px 0px 4px rgba(156, 155, 155, 0.35);
+			border-radius: 3px;
+			padding: 0 1em;
+			h3 {
+				color: #9D9D9D;
+				font-size: 1.3em;
+				margin: .5em 0 0 0;
+				font-weight: bold;
+				text-shadow: 1px 1px white;
+				font-family: 'opensans';
+				padding: 0;
+				text-align: left;
+				border: 0;
+				background-color: transparent;
+			}
+			p{
+				color: rgb(144, 144, 144);
+				font-family: 'opensans';
+				line-height: 1.5em;
+				text-shadow: 1px 1px white;
+				text-align: left;
+				font-size: .8em;
+				max-height: 100px;
+			}
+			.finish-offers {
+				color:#BCBCC7;
+				font-size: 1em;
+				margin: .5em 0 0 1em;
+				text-shadow: 1px 1px white;
+				text-align: left;
+				font-size: .8em;
+			}
+		}
+	}
+	p {
+		font-family: 'opensans';
+	}
+	p.bye-offers {
+		text-align: right;
+		bottom: 0;
+		float: right;
+		padding: 2em 0 0 0;
+		&:after{
+			font-family: 'c2';
+			content: 'c';
+			font-size: 4em;
+			color: rgb(198, 198, 198);
+			text-shadow: 1px 1px white;
+			font-weight: normal;
+		}
+	}
+	p.present-offers, .bye-offers{
+		padding: 2em 0;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.4);
+		font-weight: bolder;
+		text-shadow: 1px 1px white;
+	}
+}
+.title-offers {
+	background-color: rgb(155, 60, 60);
+	box-shadow: inset 0px -1px 1px rgba(86, 18, 18, 0.89);
+	border-bottom: 1px double rgba(255, 188, 194, 1);
+	border-width: 0 3px 3px 3px;
+	padding-top: .7em;
+	h3{
+		//border-bottom: 1px solid red;
+		color: rgba(113, 0, 0, 1);
+		text-align: center;
+		text-shadow: 1px 1px 1px #D48686;
+		padding: 0 0 .3em 0;
+		font-family: 'lighthouse';
+		font-size: 2.4em;
+		float: none;
+		margin: 0;
+		&:before {
+			content: "-";
+			text-transform: uppercase;
+			padding-right: 1em;
+			font-weight: normal;
+		}
+		&:after {
+			content: "-";
+			text-transform: uppercase;
+			padding-left: 1em;
+			font-weight: normal;
+		}
+	}
+}
+
+.bg-offers {
+	background: url('/images/bg-offers.png') no-repeat;
+}
+.shared-offers{
+	margin: .5em 0 0 0;
+	float: right;
+}
+.g-offers {
+	margin: 0 0 .3em 0;
+}
+.fb {
+	margin: .3em 0 0 0;
+}
+@media @xl {
+	.content-offers .placement-offers span.beer{
+		margin-top: 1em;
+		&:before {
+			font-size: 9em;
+		}
+	}
+	.content-offers .placement-offers span.ticket{
+		margin-top: 1em;
+		&:before {
+			font-size: 9.4em;
+		}
+	}
+	.content-offers .placement-offers span.entry{
+		margin-top: .5em;
+		&:before {
+			font-size: 11em;
+		}
+	}
+	.content-offers .placement-offers span.more {
+		margin-top: 3.4em;
+		&:before {
+			font-size: 3.2em;
+		}
+	}
+	.content-offers .placement-offers span.equal {
+		margin-top: 3.4em;
+		&:after {
+			font-size: 3.2em;
+		}
+	}
+	.content-offers .placement-offers .dates-offers h3 {
+		font-size: 1.2em;
+	}
+	/*.content-offers .placement-offers span.beer:before {
+		font-size: 7.5em;
+	}
+	.content-offers .placement-offers span.ticket:before {
+		font-size: 8.5em;
+	}
+	.content-offers .placement-offers span.entry:before {
+		font-size: 9.5em;
+	}
+	.content-offers .placement-offers span.more {
+		&:before {
+			font-size: 3.4em;
+		}
+	}
+	.content-offers .placement-offers span.equal {
+		&:after {
+			font-size: 3.4em;
+		}
+	}*/
+}
+@media @l {
+	.content-offers .placement-offers span.beer{
+		margin-top: 1em;
+		&:before {
+			font-size: 8.5em;
+		}
+	}
+	.content-offers .placement-offers span.ticket{
+		margin-top: 1em;
+		&:before {
+			font-size: 9em;
+		}
+	}
+	.content-offers .placement-offers span.entry{
+		margin-top: .5em;
+		&:before {
+			font-size: 10em;
+		}
+	}
+	.content-offers .placement-offers span.more {
+		margin-top: 3.4em;
+		&:before {
+			font-size: 3.2em;
+		}
+	}
+	.content-offers .placement-offers span.equal {
+		margin-top: 3.4em;
+		&:after {
+			font-size: 3.2em;
+		}
+	}
+	.content-offers .placement-offers .dates-offers h3 {
+		font-size: 1.2em;
+	}
+}
+@media @m{
+	.content-offers .placement-offers span.more {
+		margin-left: 34px;
+		margin-top: 1.5em;
+	}
+	.content-offers .placement-offers span.equal {
+		margin-left: 53px;
+		margin-top: 1.5em;
+	}
+	.content-offers .placement-offers span.beer:before {
+		font-size: 8em;
+	}
+	.content-offers .placement-offers span.ticket:before {
+		font-size: 9em;
+	}
+	.content-offers .placement-offers span.entry:before {
+		font-size: 10em;
+	}
+	.content-offers .placement-offers .dates-offers {
+		float: inherit;
+		padding: 0;
+	}
+	.content-offers .placement-offers .dates-offers h3 {
+		margin-left: 1em;
+	}
+	.content-offers .placement-offers .dates-offers .finish-offers {
+		margin-left: 1.6em;
+	}
+	.content-offers .placement-offers .dates-offers p{
+		margin-left: 1.6em;
+	}
+	.content-offers .placement-offers .dates-offers {
+		height: 9em;
+	}
+	.content-offers .placement-offers span.multiply {
+		margin-left: 46px;
+	}
+}
+@media @s {
+	.content-offers .placement-offers .dates-offers h3 {
+		margin-left: 1em;
+	}
+	.content-offers .placement-offers .dates-offers {
+		float: inherit;
+		padding: 0;
+		height: 9em;
+	}
+	.content-offers .placement-offers span.more {
+		margin-left: 26px;
+		margin-top: 2em;
+		&:before {
+			font-size: 3.5em;
+		}
+	}
+	.content-offers .placement-offers span.equal {
+		margin-left: 53px;
+		margin-top: 2em;
+		&:after {
+			font-size: 3.5em;
+		}
+	}
+	.content-offers .placement-offers span.beer:before {
+		font-size: 7em;
+		margin-left: 14px;
+	}
+	.content-offers .placement-offers span.ticket:before {
+		font-size: 8em;
+	}
+	.content-offers .placement-offers span.entry:before {
+		font-size: 9em;
+	}
+	.content-offers .placement-offers span.multiply {
+		margin: 2.5em 0 0 3.8em;
+		&:before {
+			font-size: 4em;
+		}
+	}
+	.content-offers .placement-offers span.copes:before {
+		font-size: 7em;
+		margin-left: 23px;
+	}
+	 .content-offers .placement-offers span.ten{
+	 	margin: 1.6em 0 0 0;
+	 }
+	.content-offers .placement-offers span.ten:before {
+		font-size: 5em;
+		float: right;
+		margin-right: 20px;
+	}
+	.content-offers .placement-offers .dates-offers .finish-offers {
+		margin-left: 1.6em;
+	}
+	.content-offers .placement-offers .dates-offers p{
+		margin-left: 1.6em;
+	}
+}
+@media @xs {
+	.content-offers h3 {
+		font-size: 1em;
+	}
+	.content-offers .placement-offers .dates-offers h3 {
+margin-left: 1em;
+}
+	.content-offers .placement-offers .dates-offers {
+		float: inherit;
+		padding: 0;
+		height: 9em;
+	}
+	.content-offers .placement-offers span.more {
+		margin-left: 16px;
+		margin-top: 1.5em;
+		&:before {
+			font-size: 2.5em;
+		}
+	}
+	.content-offers .placement-offers span.equal {
+		margin-left: 41px;
+		margin-top: 1.4em;
+		&:after {
+			font-size: 2.5em;
+		}
+	}
+	.content-offers .placement-offers span.beer:before {
+		font-size: 5em;
+		margin-left: 4px;
+	}
+	.content-offers .placement-offers span.ticket:before {
+		font-size: 5.5em;
+	}
+	.content-offers .placement-offers span.entry:before {
+		font-size: 6em;
+	}
+	.content-offers .placement-offers span.multiply {
+	margin: 2.5em 0 0 2.5em;
+		&:before {
+			font-size: 2.5em;
+		}
+	}
+	.content-offers .placement-offers span.copes:before {
+		font-size: 6em;
+		margin-left: 10px;
+	}
+	 .content-offers .placement-offers span.ten{
+	 		margin: 1.8em 0 0 0;
+	 		&:before {
+	 			font-size: 3.6em;
+				float: right;
+				margin-right: 20px;
+	 		}
+	 }
+	.content-offers .placement-offers .dates-offers .finish-offers {
+		margin-left: 1.6em;
+	}
+	.content-offers .placement-offers .dates-offers p{
+		margin-left: 1.6em;
+	}
+}
+@media @xxs {
+	.content-offers .placement-offers .dates-offers h3 {
+		margin-left: 1em;
+	}
+	.content-offers .placement-offers .dates-offers {
+		float: inherit;
+		padding: 0;
+		box-shadow: 0px 3px 5px rgba(156, 155, 155, 0.35);	
+		height: 10em;
+	}
+	.content-offers h3{
+		font-size: 1.5em;
+	}
+	.content-offers .placement-offers span.more {
+		margin-left: 34px;
+		margin-top: 1.5em;
+		&:before {
+			font-size: 1em;
+		}
+	}
+	.content-offers .placement-offers span.equal {
+		margin-left: 53px;
+		margin-top: 1.5em;
+		&:after {
+			font-size: 1em;
+		}
+	}
+	.content-offers .placement-offers span.beer:before {
+		font-size: 6em;
+		margin-left: 5px;
+	}
+	.content-offers .placement-offers span.ticket:before {
+		font-size: 4.5em;
+	}
+	.content-offers .placement-offers span.entry:before {
+		font-size: 5em;
+	}
+	.content-offers p.bye-offers{
+		font-size: .65em;
+		margin-bottom: .4em;
+	}
+	.content-offers .placement-offers .dates-offers .finish-offers {
+		margin-left: 1.6em;
+	}
+	.content-offers .placement-offers .dates-offers p{
+		margin-left: 1.6em;
+	}
+}

@@ -1,0 +1,47 @@
+<div class="c12 placement-offers">
+<div class="offer">
+	<div class="c12 padding-offers">
+		<a class="hidden-xxs" href="#">
+		<div class="c2 c2-xxs c2-xs c2-s c2-m">
+			<span class="c12 beer"></span>
+				<p class="c12 hidden-xxs hidden-xs hidden-s hidden-m hidden-l hidden-xl">(Consumición)</p>
+		</div>
+		<div class="c1 c2-xxs c2-xs c2-s c2-m">
+			<span class="more"></span>
+		</div>
+		<div class="c2 c2-xxs c2-xs c2-s c2-m">
+			<span class="c12 ticket"></span>
+			<p class="c12 hidden-xxs hidden-xs hidden-s hidden-m hidden-l hidden-xl">(Sorteo)</p>
+		</div>
+		<div class="c1 c2-xxs c2-xs c2-s c2-m">
+			<span class="equal"></span>
+		</div>
+		<div class="c2 c2-xxs c2-xs c2-s c2-m">
+			<span class="c12 entry"></span>
+			<p class="c12 hidden-xxs hidden-xs hidden-s hidden-m hidden-l hidden-xl">(Entradas)</p>
+		</div>
+		</a>
+		<div class="dates-offers c3 c12-xxs c12-xs c12-s c12-m">
+			<h3 class="c12">Real Madrid vs Elche</h3>
+			<div class="p-info c12 c6-xxs c6-xs c6-s c6-m">
+			<p class="c5 c12-xxs c12-xs c12-s c6-m">
+				Hora:<br>
+				25/07/2014 20:00
+			</p>
+			<p class="finish-offers c6">
+				Termina:<br>
+				24/07/2014 21:00
+			</p>
+			</div>
+			<div class="shared-offers c12 c6-xxs c6-xs c6-s c6-m">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none">Tweet</a>
+			
+			<div class="fb-like fb" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+			</div>
+			<div class=" g-offers">
+			
+			</div>
+		</div>
+	</div>
+	</div>
+</div>

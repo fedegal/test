@@ -1,0 +1,71 @@
+{>"head/head-web"/}
+  <body>
+  {>"header"/}
+  <div class="bg-menu">
+		<div class="c12 title-offers">
+			<h3>Carta</h3>
+		</div>
+  	<div class="vp">
+  	<h4 class="c12">Cervezas</h4>
+  	<ul class="c12">
+  		<li class="c12">
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m product-menu">Cañita </p>
+	  		<p class="c8 c7-xxs c7-xs separation-menu"></p>
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m value-offers"> 1,00 €</p>
+  		</li>
+  		<li class="c12">
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m product-menu">Botellin </p>
+	  		<p class="c8 c7-xxs c7-xs separation-menu"></p>
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m value-offers"> 1,20 €</p>
+  		</li>
+  		<li class="c12">
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m product-menu">Caña </p>
+	  		<p class="c8 c7-xxs c7-xs separation-menu"></p>
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m value-offers"> 1,50 €</p>
+  		</li>
+  		<li class="c12">
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m product-menu">Tercio </p>
+	  		<p class="c8 c7-xxs c7-xs separation-menu"></p>
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m value-offers"> 2,00 €</p>
+  		</li>
+  		<li class="c12">
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m product-menu">Jarra </p>
+	  		<p class="c8 c7-xxs c7-xs separation-menu"></p>
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m value-offers"> 2,50 €</p>
+  		</li>
+  	</ul>
+  		<h4 class="c12">Bebidas Alcholicas</h4>
+  		<ul class="c12">
+  		<li class="c12">
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m product-menu">Nacional </p>
+	  		<p class="c8 c5-xxs c3-xs separation-menu"></p>
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m value-offers"> 4,50 €</p>
+  		</li>
+  		<li class="c12">
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m product-menu">Importación </p>
+	  		<p class="c8 c7-xxs c7-xs separation-menu"></p>
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m value-offers"> 5,00 €</p>
+  		</li>
+  		<li class="c12">
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m product-menu">Botella </p>
+	  		<p class="c8 c7-xxs c7-xs separation-menu"></p>
+	  		<p class="c2 c6-xxs c6-xs c6-s c6-m value-offers"> 50,00 €</p>
+  		</li>
+  	</ul>
+  	<h4 class="c12">Ven a celebrar tu Dia</h4>
+  	<ul class="c4">
+  		<li class="c12">
+  			<p class="birthday">
+  				Celebra tu cumpleaños con nosotros.<br>
+  				Viernes y Sabados<br>
+  				22:00 pm a 2:00 am<br>
+  			</p>
+  		</li>
+  	</ul>
+  	<h5 class="c6 c4-xxs c3-xs c3-s">Las Tapas y Raciones te salen gratis.</h5>
+  	</div>
+  </div> 
+  {>"footer"/}
+  </body>
+  }
+</html>

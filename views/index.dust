@@ -1,0 +1,7 @@
+{>"head/head-web"/}
+  <body>
+  {>"header"/}
+  {>"slider2"/}
+  {>"footer"/}
+  </body>
+</html>

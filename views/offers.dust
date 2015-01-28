@@ -1,0 +1,36 @@
+{>"head/head-web"/}
+  <body>
+  {>"header"/}
+  <div class="c12 title-offers">
+		 	<h3>Ofertas</h3>
+		</div>
+  <div class="content-offers">
+	 	<div class="vp">
+		 	<p class="c12 present-offers">
+		 		" Enterate de nuestras ofertas tambien en Facebook y Twitter. "
+		 	</p>
+		 	<div class="c12">
+		 		<h3 class="c12">Sorteamos 2 entradas</h3>
+		 		{>"offer1"/}
+		 		<h3 class="c12">De copas</h3>
+		 		{>"offer2"/}
+		 		<h3 class="c12">En tu dia</h3>
+		 		{>"offer1"/}
+		 	</div>
+		 	<p class="c12 bye-offers">
+		 		Las mejores ofertas al disfrute para ti y todos los tuyos.  
+		 	</p>
+		 	<div class="c12 hidden-xxs hidden-xs hidden-s hidden-m palms"></div>
+		</div>
+ 	</div>
+  {>"footer"/}
+  </body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&appId=1476661092590624&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</html>

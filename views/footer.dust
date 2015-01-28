@@ -1,0 +1,40 @@
+<footer class="c12">
+<div class="bg-footer"></div>
+<div class="vp">
+<div class="mfooter">
+<div class="mg c6 c12-xxs c12-xs c12-s c12-m">
+	<strong class="title">El Paraiso</strong>
+			<p>Bienvenido a El Paraiso, un lugar para relajarte,  escuchar tu música favorita. Servimos refrescos, cerveza, alcohol. Dos televisiones para disfrutar al máximo los partidos con equipo de altavoces repartidos por todo el local. Entérate de nuestras ofertas.</p>
+</div>
+<div class="mg c3 c12-xxs c12-xs c12-s c12-m">
+	<strong class="title">Contacto</strong>
+	<ul>
+    <li>C/ Comercio, 7, 28760, Tres Cantos, Madrid</li>
+    <li class="number">91 803 00 00</li>
+    <li><edu>Horario:</edu> xxxx xxxx xxxx</li>
+    <li><a href="mailto:elparaiso@hotmail.com">elparaiso@gmail.com</a></li>
+	</ul>
+</div>
+<div class="mg1 c3 c12-xxs c12-xs c12-s c12-m">
+<strong class="title">Siguenos</strong>
+<ul class="social-media-icons">
+        <li>
+          <a href="http://www.facebook.com" class="icon facebook">
+            <span>Página de fans en Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.twitter.com/" class="icon twitter">
+            <span>Perfil de Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.youtube.es/" class="icon youtube">
+            <span>Canal de Youtube</span>
+          </a>
+        </li>
+      </ul>
+      </div>
+</div>
+</div>
+</footer>

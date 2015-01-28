@@ -1,0 +1,147 @@
+p.birthday {
+				color:rgb(195, 161, 122);
+				font-size: .6em;
+				font-family: 'opensans';
+				text-align: left;
+			}
+p.birhtday-offers {
+	color:rgb(195, 161, 122);
+				font-size: .6em;
+				font-family: 'opensans';
+				text-align: center;
+}
+.bg-menu {
+	background: url('/images/bkg-page.jpg') repeat;
+	z-index: 0;
+	padding: 0 0 4em 0;
+
+	h5{
+		color: orange;
+		text-align: center;
+		font-size: 1em;
+		border: 5px double orange;
+		margin: 1em 0 0 2em;
+		padding: 2em;
+		font-weight: bolder;
+		float: right;
+	}
+	h4 {
+		text-shadow: 1px 1px rgba(252, 246, 243, 0.94);
+		margin: 1.8em 0 .0 0;
+		font-size: 2em;
+		font-family: 'c1';
+		color: rgba(113, 43, 15, 0.74);
+		text-align: center;
+		text-shadow: 1px 1px white;
+		font-weight: bold;
+		padding: .3em 0;
+		border:6px double rgba(255, 131, 0, 0.33);
+		background: rgba(234, 199, 134, 0.38);
+	}
+	ul {
+		font-family: 'opensans';
+		color: black;
+		background: rgba(255, 255, 255, 0.28);
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		box-shadow: 0px 2px 1px rgba(184, 184, 184, 0.3);
+		border-bottom:1px solid rgba(255, 131, 0, 0.33);
+		border-left:1px solid rgba(255, 131, 0, 0.33);
+		border-right:1px solid rgba(255, 131, 0, 0.33);
+		padding: .8em 10px .4em 0;
+		li{
+			font-size: 1.8em;
+			line-height: 1em;
+			text-shadow: 1px 1px white;
+			margin: 0 0 0 .5em;
+			.separation-menu {
+				border-bottom: 2px dotted rgba(255, 160, 49, 0.24);
+				margin: -10px 0 0 0;
+				&:after{
+					content: '-';
+				font-size: 1em;
+				text-align: center;
+				opacity: 0;
+			}
+			}
+			.value-offers {
+				text-align: right;
+				font-family: 'c3';
+				font-size: .65em;
+				color: rgba(178, 104, 0, 0.67);
+				margin: 0 0 3px -28px;
+
+			}
+			.product-menu{
+				color: rgba(191, 72, 0, 0.87);
+				font-size: .9em;
+				font-variant: small-caps;
+				letter-spacing: .05em;
+			}
+		}
+	}
+}
+
+@media @xxs {
+	.bg-menu{
+		h4 {
+			font-size: 1em;
+		}
+		h5 {
+			margin: 1em 0 0 0;
+		}
+	}
+	.separation-menu {
+		display: none;
+	}
+	p.birthday {
+		font-size: .5em;
+		line-height: 1.6em; 
+	}
+	.bg-menu ul li .product-menu {
+		font-size: .8em;
+	}
+}
+@media @xs {
+	.bg-menu{
+		h5 {
+			margin: 1em 0 0 0;
+		}
+	}
+	.separation-menu {
+		display: none;
+	}
+	p.birthday {
+		font-size: .5em;
+		line-height: 1.6em; 
+	}
+}
+@media @s {
+	.bg-menu{
+		h5 {
+			margin: 1em 0 0 0;
+			font-size: .9em;
+		}
+	}
+	.separation-menu {
+		display: none;
+	}
+	p.birthday {
+		font-size: .5em;
+		line-height: 1.6em; 
+	}
+}
+@media @m {
+	.bg-menu{
+		h5 {
+			margin: 1em 0 0 0;
+		}
+	}
+	.separation-menu {
+		display: none;
+	}
+	p.birthday {
+		font-size: .5em;
+		line-height: 1.6em; 
+	}
+}
